@@ -12,7 +12,14 @@
 	</head>
 	<body>
 		<h1>This page tests svg favicon support</h1>
-		
+		<p>
+			If you can see the green torus 
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="16" width="16">
+			  <circle cx="8" cy="8" r="8" fill="green" stroke="#000" stroke-width="1" />
+			  <circle cx="8" cy="8" r="3" fill="#fff" stroke="#000" stroke-width="1" />
+			</svg>
+			then the data-uri favicon is working
+		</p>
 		<p>If you can see an happy smileyface icon 
     <object data="happyface.svg">[SVG happy face]</object>
     in the addressfield/tab/tab-switcher of your browser then there is support for svg favicons, 
